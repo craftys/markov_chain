@@ -18,7 +18,6 @@ doc = ['<html><head><title>Page title</title></head>',
 #soup = BeautifulSoup(''.join(doc))
 soup = BeautifulSoup(html_doc, 'html.parser')
 
-#print soup.prettify()
-
-#print soup.text
+print soup.prettify()
+print soup.text
 print soup.
